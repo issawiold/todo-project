@@ -5,7 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ToDo</title>
+    <!--<link rel="stylesheet" href="css/rest.css"> -->
     <link rel="shortcut icon" href="https://play-lh.googleusercontent.com/HUuQc4Zpl6x7fUyX-jFMmcuUbW77REw4UKl5rfhHfP4VY6ctBU1w1I_RZWsXaojFgIo" type="image/x-icon">
+    <link rel="stylesheet" href="./css/todo-style.css">
 </head>
 <body>
 <header>
@@ -13,12 +15,12 @@
     ToDo
 </h1>
 <a href=""target="_blank">
-<img src="https://w7.pngwing.com/pngs/972/511/png-transparent-todo-sketch-note-list-tasks-thumbnail.png"
+<img id="logo" src="https://w7.pngwing.com/pngs/972/511/png-transparent-todo-sketch-note-list-tasks-thumbnail.png"
  alt="logo">
 </a>
-<hr>
-<p>Accomplish more in less time</p>
-<fieldset>
+
+<p id="quote1">Accomplish more in less time</p>
+<fieldset class="login" id="fs">
 <legend>
     login
 </legend>
@@ -28,36 +30,39 @@
 <tr><td><label for="password">password<input type="password" placeholder="password" id="password"> </label></td></tr>
 </table>
 </form>
-<tr><td><button>sign in</button> </td></tr>
+<tr><td><button class="button">sign in</button> </td></tr>
 <tr><td><a href="" target="_blank">forgot your password ?</a></td></tr>
   
 </fieldset>
-<p>the best website to track your tasks</p>
-<a href="" target="_blank">collaborators</a>
-<img src="" alt="user photo">
-<a href="about.html">don't have account, sign up? and join us.</a>
+<nav>
+<p id="quote2">the best website to track your tasks</p>
+<a id="col" href="" target="_blank">collaborators</a>
+<img id="userimg" src="https://cdn.britannica.com/92/100692-050-5B69B59B/Mallard.jpg" alt="user photo">
+<a id="sign" href="about.html">don't have account, sign up? and join us.</a>
+</nav>
 </header> 
-   <hr>
-   <section>
-<h2>Tasks ToDo</h2>
-<table>
-    <thead><tr><td>tasks</td><td>status</td></tr></thead>
+<main>
+
+   
+<h2 id="title">Tasks ToDo</h2>
+<table class="table">
+    <thead><tr><td class="tt">tasks</td><td class="tt"></td><td class="tt">status</td></tr></thead>
 <ul>
-    <tbody><tr><td><li>Drink a cup of water</li></td><td><input type="checkbox"></td></tr></tbody>
-    <tbody><tr><td><li> Try to take over the world</li></td><td><input type="checkbox"></td></tr></tbody>
-    <tbody><tr><td><li>Cause the apocalypse</li></td><td><input type="checkbox"></td></tr></tbody>
+    <tbody><tr><td class="te"><li>Drink a cup of water</li></td><td class="te"><input class="sel1" type="checkbox"></td><td class="tq1">1</td></tr></tbody>
+    <tbody><tr><td class="te"><li> Try to take over the world</li></td><td class="te"><input class="sel2" type="checkbox"></td><td class="tq2">2</td></tr></tbody>
+    <tbody><tr><td class="te"><li>Cause the apocalypse</li></td><td class="te"><input class="sel3" type="checkbox"></td><td class="tq3">3</td></tr></tbody>
 </ul>
-    <tfoot><tr><td><button>add more tasks</button></td></tr></tfoot>
+    <tfoot><tr><td class="button"><button>add more tasks</button></td></tr></tfoot>
 </table> 
-<p>Breaking tasks into smaller pieces can help you complete the task</p>
-   </section>
-   <hr>
-<h3>" dreams don't work unless you do "</h3>
-<footer>
-    <hr>
-    <a href="" target="_blank">copyrights</a>
-    <a href="about.html" target="_blank" >contact us</a>
-    <a href="" target="_blank">facing an issue check the faq</a>
+<p class="quote3">Breaking tasks into smaller pieces can help you complete the task</p>
+   
+
+<h3 class="quote4">" dreams don't work unless you do "</h3>
+</main>
+<footer >
+    <a class="a" href="" target="_blank">copyrights</a>
+    <a class="a" href="about.html" target="_blank" >contact us</a>
+    <a class="a" href="" target="_blank">facing an issue check the faq</a>
 </footer>
 </body>
 
