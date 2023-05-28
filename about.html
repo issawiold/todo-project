@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Us</title>
     <link rel="shortcut icon" href="https://play-lh.googleusercontent.com/HUuQc4Zpl6x7fUyX-jFMmcuUbW77REw4UKl5rfhHfP4VY6ctBU1w1I_RZWsXaojFgIo" type="image/x-icon">
+    <!--<link rel="stylesheet" href="css/rest.css">-->
+    <link rel="stylesheet" href="./css/todo-style.css">
 
 </head>
 
@@ -16,13 +18,13 @@
         ToDo
     </h1>
     <a href="index.html" target="_blank">
-    <img src="https://w7.pngwing.com/pngs/972/511/png-transparent-todo-sketch-note-list-tasks-thumbnail.png"
+    <img id="logo" src="https://w7.pngwing.com/pngs/972/511/png-transparent-todo-sketch-note-list-tasks-thumbnail.png"
      alt="logo">
     </a>
     <hr>
-    <p>Accomplish more in less time</p>
-    <fieldset>
-    <legend>
+    <p id="quote1">Accomplish more in less time</p>
+    <fieldset class="login">
+    <legend id="fs">
         login
     </legend>
     <form >
@@ -31,33 +33,38 @@
     <tr><td><label for="password">password<input type="password" placeholder="password" id="password"> </label></td></tr>
     </table>
     </form>
-    <button>sign in</button> 
+    <button class="button">sign in</button> 
     <a href="" target="_blank">forgot your password</a>
       
     </fieldset>
-    <p>the best website to track your tasks</p>
-    <a href="" target="_blank">collaborators</a>
-    <img src="" alt="user photo">
-    <a href="">don't have account, sign up? and join us.</a>
+    <nav>
+    <p id="quote2">the best website to track your tasks</p>
+    <a id="col" href="" target="_blank">collaborators</a>
+    <img id="userimg" src="https://cdn.britannica.com/92/100692-050-5B69B59B/Mallard.jpg" alt="user photo">
+    <a id="sign" href="about.html">don't have account, sign up? and join us.</a>
+       
+</nav>
 </header>
+<main>
 <div>
-<fieldset>
-<legend>Website Owner Info</legend>
-<P>name: Omar mohammad al issawi</P>
-<p>gender:male</p>
-<img src="https://qph.cf2.quoracdn.net/main-qimg-d5a404439448b5858c36f0de2e64e525-pjlq"
+<fieldset id="fs">
+<legend id="title">Website Owner Info</legend>
+<img class="img1" src="https://qph.cf2.quoracdn.net/main-qimg-d5a404439448b5858c36f0de2e64e525-pjlq"
  alt="owner's image">
-<p>bio:Civil engineer , Dnd game master ,avid novels reader , and a humble author</p>
-<p>email:omar.m.issawi.95@gmail.com</p>
-<p>date of birth:1995/9/12</p>
-<p>age:28</p>
+<P class="t1">name: Omar mohammad al issawi</P>
+<p class="t1">gender:male</p>
+
+<p class="t1">bio:Civil engineer , Dnd game master ,avid novels reader , and a humble author</p>
+<p class="t1">email:omar.m.issawi.95@gmail.com</p>
+<p class="t1">date of birth:1995/9/12</p>
+<p class="t1">age:28</p>
 </fieldset>
 </div>
 
 <form >
-    <fieldset>
+    <fieldset id="fs">
         <legend>Sign up </legend>
-        <table>
+        <table class="table">
     <tr><td><label for="name">name<input type="text" placeholder="name" maxlength="100" id="name"> </label></td></tr>
     <tr><td><label for="gender">gender<input type="radio" id="gender">male<input type="radio" id="gender">female</label></td></tr>
     <tr><td><label for="image">image<input type="image" id="image"> </label></td></tr>
@@ -67,15 +74,15 @@
     <tr><td><label for="bio">bio<input type="text" placeholder="bio , please tell us about yourself , your life and your hobbies  " maxlength=1000 id="bio"></label></td></tr>
 </table>
 </ul>
-    <button>submit the data</button>
+    <button class="button">submit the data</button>
 </fieldset>
 </form>
-
+</main>
     <footer>
-<hr>
-    <a href="" target="_blank">copyrights</a>
-    <a href="index.html" target="_blank" >Return to main page</a>
-    <a href="" target="_blank">facing an issue check the faq</a>
+
+    <a class="a" href="" target="_blank">copyrights</a>
+    <a class="a" href="index.html" target="_blank" >Return to main page</a>
+    <a class="a" href="" target="_blank">facing an issue check the faq</a>
 </footer>
 
 </body>

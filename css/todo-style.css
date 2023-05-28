@@ -1,0 +1,194 @@
+#logo{
+    height: 100px;
+    width: 100px;
+    border-radius: 5px;
+    position: absolute;
+    margin-left: 47%;
+    margin-right: 47%;
+    
+}
+header{background-color: gray;
+color: aliceblue;
+
+
+}
+.login{
+    position: relative;
+    height: 150px;
+    width: 250px;
+    margin-left: 1%;
+    margin-right: 80%
+
+}
+#quote1{
+    position: relative;
+    top: 2%;
+    left: 4%;
+    font-family: 'Playfair Display', serif;
+}
+h1{
+    position: relative;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+}
+#quote2{
+    position: relative;
+    top: 30%;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+}
+#col{
+    position: absolute;
+    top: 40%;
+    left: 47%;
+    text-align: center;
+}
+#userimg{
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 30%;
+    left: 90%;
+
+}
+#sign{
+    position: relative;
+    top: 42%;
+    left: 75%;
+
+}
+body{
+    margin: 1%;
+    background-color: aquamarine;
+}
+main{
+    background-color: rgb(87, 7, 161);
+    border-radius: 15%;
+}
+#title{
+    padding-top: 10px;
+    position: relative;
+    text-align: center;
+    margin: 2%;
+    margin-bottom: 4%;
+
+}
+.tt{
+    position: relative;
+    text-align: center;
+    margin: 1%;
+    font-weight: bold;
+    font-size: medium;
+    font-style: italic;
+    text-align: center;
+    background-color: rgb(13, 13, 155);
+}
+.te{
+    position: relative;
+    margin: 1%;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: left;
+    background-color: blue;
+    }
+.tq1{
+    height: 15px;
+    width: 45px;
+    background-color: red;
+
+}
+.tq2{
+    height: 15px;
+    width: 45px;
+    background-color: red;}
+.tq3{
+        height: 15px;
+        width: 45px;
+        background-color: red;}
+.table{
+    position:relative ;
+    align-self:center;
+    width:76%; 
+    margin-left:12%; 
+    margin-right:12%;
+    background-color: blueviolet;
+    border: solid;
+
+}
+.table td{
+    position: relative;
+    align-items: center;
+    padding: 1%;
+}
+.button{
+    border-radius: 15px;
+    color: black;
+    border: none;
+    position: relative;
+    margin-top: 2%;
+    margin-bottom: 3%;
+    margin-right: 3%;
+    margin-left: 2%;
+    padding: 1%;
+
+    
+    
+}
+.button :hover {
+    color: white;
+    background-color: red;
+    border: none;
+}
+.quote3{
+    position: relative;
+    text-align: center;
+}
+.quote4
+{
+    position: relative;
+    text-align: center;
+    padding: 10px;
+    background-color: white;
+    color: gray;
+}
+footer{
+    position: relative;
+    background-color: grey;
+    border-radius: 50%;
+    padding: 1%;
+    
+}
+.a{
+    width:80%; 
+    margin-left:10%; 
+    margin-right:10%;
+ text-align: center;}  
+
+  .sel1:checked ~ .tq1{
+    background-color: green;
+  }
+  
+  .sel2:checked ~ .tq2{
+    background-color: green;
+  }
+  .sel3:checked ~ .tq3{
+    background-color: green;
+  }
+  .img1{
+    border-radius: 50%;
+    position: relative;
+    float: left;
+    
+  }
+  .t1{
+    position: relative;
+    text-align: left;
+    padding: 1%;
+   ;
+  }
+  #fs{
+    padding: 1%;
+    border-radius: 30%;
+  }
+  
