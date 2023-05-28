@@ -1,17 +1,83 @@
-#logo{
-    height: 100px;
-    width: 100px;
-    border-radius: 5px;
-    position: absolute;
-    margin-left: 47%;
-    margin-right: 47%;
-    
+body{
+    margin: 1%;
+    background-color: aquamarine;
 }
 header{background-color: gray;
-color: aliceblue;
-
+    color: aliceblue;
+    
+    
+    }
+main{
+        background-color: rgb(87, 7, 161);
+        border-radius: 15%;
+}
+footer{
+    position: relative;
+    background-color: grey;
+    border-radius: 50%;
+    padding: 1%;
+    
+}
+footer a{
+    width:80%; 
+    margin-left:10%; 
+    margin-right:10%;
+ text-align: center;}  
+ h1{
+    position: relative;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+}
+h2{
+    padding-top: 10px;
+    position: relative;
+    text-align: center;
+    margin: 2%;
+    margin-bottom: 4%;
 
 }
+h3
+{
+    position: relative;
+    text-align: center;
+    padding: 10px;
+    background-color: white;
+    color: gray;
+}
+button{
+    border-radius: 15px;
+    color: black;
+    border: none;
+    position: relative;
+    margin-top: 2%;
+    margin-bottom: 3%;
+    margin-right: 3%;
+    margin-left: 2%;
+    padding: 1%;
+
+    
+    
+}
+button :hover {
+    color: white;
+    background-color: red;
+    border: none;
+}
+.img1{
+    border-radius: 50%;
+    position: relative;
+    float: left;
+    
+}
+.t1{
+    position: relative;
+    text-align: left;
+    padding: 1%;
+   ;
+}
+
+
+
 .login{
     position: relative;
     height: 150px;
@@ -20,60 +86,7 @@ color: aliceblue;
     margin-right: 80%
 
 }
-#quote1{
-    position: relative;
-    top: 2%;
-    left: 4%;
-    font-family: 'Playfair Display', serif;
-}
-h1{
-    position: relative;
-    text-align: center;
-    font-family: 'Inter', sans-serif;
-}
-#quote2{
-    position: relative;
-    top: 30%;
-    text-align: center;
-    font-family: 'Playfair Display', serif;
-}
-#col{
-    position: absolute;
-    top: 40%;
-    left: 47%;
-    text-align: center;
-}
-#userimg{
-    border-radius: 50%;
-    height: 100px;
-    width: 100px;
-    position: absolute;
-    top: 30%;
-    left: 90%;
 
-}
-#sign{
-    position: relative;
-    top: 42%;
-    left: 75%;
-
-}
-body{
-    margin: 1%;
-    background-color: aquamarine;
-}
-main{
-    background-color: rgb(87, 7, 161);
-    border-radius: 15%;
-}
-#title{
-    padding-top: 10px;
-    position: relative;
-    text-align: center;
-    margin: 2%;
-    margin-bottom: 4%;
-
-}
 .tt{
     position: relative;
     text-align: center;
@@ -121,74 +134,69 @@ main{
     align-items: center;
     padding: 1%;
 }
-.button{
-    border-radius: 15px;
-    color: black;
-    border: none;
-    position: relative;
-    margin-top: 2%;
-    margin-bottom: 3%;
-    margin-right: 3%;
-    margin-left: 2%;
-    padding: 1%;
 
-    
-    
-}
-.button :hover {
-    color: white;
-    background-color: red;
-    border: none;
-}
 .quote3{
     position: relative;
     text-align: center;
 }
-.quote4
-{
-    position: relative;
-    text-align: center;
-    padding: 10px;
-    background-color: white;
-    color: gray;
-}
-footer{
-    position: relative;
-    background-color: grey;
-    border-radius: 50%;
-    padding: 1%;
-    
-}
-.a{
-    width:80%; 
-    margin-left:10%; 
-    margin-right:10%;
- text-align: center;}  
 
-  .sel1:checked ~ .tq1{
-    background-color: green;
-  }
-  
-  .sel2:checked ~ .tq2{
-    background-color: green;
-  }
-  .sel3:checked ~ .tq3{
-    background-color: green;
-  }
-  .img1{
+#quote1{
+    position: relative;
+    top: 2%;
+    left: 4%;
+    font-family: 'Playfair Display', serif;
+}
+
+#quote2{
+    position: relative;
+    top: 30%;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+}
+#col{
+    position: absolute;
+    top: 40%;
+    left: 47%;
+    text-align: center;
+}
+#userimg{
     border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 30%;
+    left: 90%;
+
+}
+#sign{
     position: relative;
-    float: left;
+    top: 42%;
+    left: 75%;
+
+}
+#logo{
+    height: 100px;
+    width: 100px;
+    border-radius: 5px;
+    position: absolute;
+    margin-left: 47%;
+    margin-right: 47%;
     
-  }
-  .t1{
-    position: relative;
-    text-align: left;
-    padding: 1%;
-   ;
-  }
-  #fs{
-    padding: 1%;
-    border-radius: 30%;
-  }
+}
+
+
+
+
+.sel1:checked ~ .tq1{
+    background-color: green;
+}
+  
+.sel2:checked ~ .tq2{
+    background-color: green;
+}
+.sel3:checked ~ .tq3{
+    background-color: green;
+}
+
+
   
