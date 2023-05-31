@@ -105,17 +105,17 @@ button :hover {
     text-align: left;
     background-color: blue;
     }
-.tq1{
+#tq1{
     height: 15px;
     width: 45px;
     background-color: red;
 
 }
-.tq2{
+#tq2{
     height: 15px;
     width: 45px;
     background-color: red;}
-.tq3{
+#tq3{
         height: 15px;
         width: 45px;
         background-color: red;}
@@ -187,14 +187,21 @@ button :hover {
 
 
 
-.sel1:checked ~ .tq1{
+#sel1:checked ~ #tq1{
+    height: 15px;
+    width: 45px;
     background-color: green;
+    
 }
   
-.sel2:checked ~ .tq2{
+#sel2:checked ~ #tq2{
+    height: 15px;
+    width: 45px;
     background-color: green;
 }
-.sel3:checked ~ .tq3{
+#sel3:checked ~ #tq3{
+    height: 15px;
+    width: 45px;
     background-color: green;
 }
 
