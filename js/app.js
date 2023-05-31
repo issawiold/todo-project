@@ -4,6 +4,9 @@ if (gender!=("male"||"female")) {
     gender=prompt("kindly provide us with your gender");
 };
 var age=prompt("kindly provide us with your age");
+if (this.age!="number") {
+    age=prompt("kindly provide us with your age");
+}
 if(age<=0) {
     age=prompt("kindly provide us with your age") ;
 }
