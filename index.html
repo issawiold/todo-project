@@ -8,6 +8,7 @@
     <!-- <link rel="stylesheet" href="css/rest.css"> -->
     <link rel="shortcut icon" href="https://play-lh.googleusercontent.com/HUuQc4Zpl6x7fUyX-jFMmcuUbW77REw4UKl5rfhHfP4VY6ctBU1w1I_RZWsXaojFgIo" type="image/x-icon">
     <link rel="stylesheet" href="./css/todo-style.css">
+    <script src="./js/app.js"></script>
 </head>
 <body>
 <header>
@@ -39,6 +40,7 @@
 <a id="col" href="" target="_blank">collaborators</a>
 <img id="userimg" src="https://cdn.britannica.com/92/100692-050-5B69B59B/Mallard.jpg" alt="user photo">
 <a id="sign" href="about.html">don't have account, sign up? and join us.</a>
+<a href="about.html">about</a>
 </nav>
 </header> 
 <main>
@@ -48,9 +50,9 @@
 <table class="table">
     <thead><tr><td class="tt">tasks</td><td class="tt"></td><td class="tt">status</td></tr></thead>
 <ul>
-    <tbody><tr><td class="te"><li>Drink a cup of water</li></td><td class="te"><input class="sel1" type="checkbox"></td><td class="tq1">1</td></tr></tbody>
-    <tbody><tr><td class="te"><li> Try to take over the world</li></td><td class="te"><input class="sel2" type="checkbox"></td><td class="tq2">2</td></tr></tbody>
-    <tbody><tr><td class="te"><li>Cause the apocalypse</li></td><td class="te"><input class="sel3" type="checkbox"></td><td class="tq3">3</td></tr></tbody>
+    <tbody><tr><td class="te"><li>Drink a cup of water</li></td><td class="te"><input id="sel1" type="checkbox"></td><td id="tq1">1</td></tr></tbody>
+    <tbody><tr><td class="te"><li> Try to take over the world</li></td><td class="te"><input id="sel2" type="checkbox"></td><td id="tq2">2</td></tr></tbody>
+    <tbody><tr><td class="te"><li>Cause the apocalypse</li></td><td class="te"><input id="sel3" type="checkbox"></td><td id="tq3">3</td></tr></tbody>
 </ul>
     <tfoot><tr><td class="button"><button>add more tasks</button></td></tr></tfoot>
 </table> 
