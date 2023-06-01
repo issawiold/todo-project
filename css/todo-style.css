@@ -57,7 +57,7 @@ button{
     margin-right: 3%;
     margin-left: 2%;
     padding: 1%;
-
+    cursor: pointer;
     
     
 }
@@ -65,6 +65,7 @@ button :hover {
     color: white;
     background-color: red;
     border: none;
+    
 }
 .img1{
     border-radius: 50%;
