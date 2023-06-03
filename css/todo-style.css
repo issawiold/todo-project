@@ -1,15 +1,17 @@
 body{
     margin: 1%;
     background-color: aquamarine;
+    font-family: 'Playfair Display', serif;;
 }
 header{background-color: gray;
     color: aliceblue;
     
-    
+    font-family: 'Playfair Display', serif;
     }
 main{
         background-color: rgb(87, 7, 161);
         border-radius: 15%;
+        font-family: 'Playfair Display', serif;
 }
 footer{
     display: flex;
@@ -18,20 +20,24 @@ footer{
     background-color: grey;
     border-radius: 50%;
     padding: 1%;
+    font-family: 'Playfair Display', serif;
     
 }
 footer a{
+    font-family: inherit;
     width:80%; 
     margin-left:10%; 
     margin-right:10%;
  text-align: center;
 }  
  h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     display:flex ;
     justify-content: center;
-    font-family: 'Inter', sans-serif;
+    
 }
 h2{
+    font-family: inherit;
     padding-top: 10px;
     display:flex ;
     justify-content: center;
@@ -41,6 +47,7 @@ h2{
 }
 h3
 {
+    font-family: inherit;
     display:flex ;
     justify-content: center;
     padding: 10px;
@@ -62,6 +69,7 @@ button{
     
 }
 button :hover {
+    font-family: inherit;
     color: white;
     background-color: red;
     border: none;
@@ -74,6 +82,7 @@ button :hover {
     
 }
 .t1{
+    font-family: inherit;
     display:flex ;
     justify-content: flex-end;
     padding: 1%;
@@ -83,6 +92,7 @@ button :hover {
 
 
 .login{
+    font-family: inherit;
     display:flex ;
     justify-content: flex-start;
     height: 150px;
@@ -93,6 +103,7 @@ button :hover {
 }
 
 .tt{
+    font-family: inherit;
     
     margin: 1%;
     font-weight: bold;
@@ -102,19 +113,21 @@ button :hover {
     background-color: rgb(13, 13, 155);
 }
 .te{
-    
+    font-family: inherit;
     margin: 1%;
     padding-left: 10px;
     padding-right: 10px;
     background-color: blue;
     }
 #tq1{
+    font-family: inherit;
     height: 15px;
     width: 45px;
     background-color: red;
 
 }
 #tq2{
+    font-family: inherit;
     height: 15px;
     width: 45px;
     background-color: red;}
@@ -123,7 +136,7 @@ button :hover {
         width: 45px;
         background-color: red;}
 .table{
-    
+    font-family: inherit;
     width:76%; 
     margin-left:12%; 
     margin-right:12%;
@@ -132,16 +145,19 @@ button :hover {
 
 }
 .table td{
+    font-family: inherit;
    align-self: start;
     padding: 1%;
 }
 
 .quote3{
+    font-family: inherit;
     display:flex ;
     justify-content: center;
 }
 
 #quote1{
+    font-family: inherit;
     display:flex ;
     justify-content: flex-start;
     top: 2%;
@@ -150,6 +166,7 @@ button :hover {
 }
 
 #quote2{
+    font-family: inherit;
     position: relative;
     top: 30%;
     text-align: center;
@@ -172,6 +189,7 @@ button :hover {
 
 }
 #sign{
+    font-family: inherit;
     position: relative;
     top: 42%;
     left: 75%;
