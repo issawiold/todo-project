@@ -2,16 +2,20 @@ body{
     margin: 1%;
     background-color: aquamarine;
     font-family: 'Playfair Display', serif;;
+    padding: auto;
 }
 header{background-color: gray;
     color: aliceblue;
+    padding: auto;
     
     font-family: 'Playfair Display', serif;
+
     }
 main{
         background-color: rgb(87, 7, 161);
         border-radius: 15%;
         font-family: 'Playfair Display', serif;
+        padding: auto;
 }
 footer{
     display: flex;
@@ -21,6 +25,7 @@ footer{
     border-radius: 50%;
     padding: 1%;
     font-family: 'Playfair Display', serif;
+    padding: auto;
     
 }
 footer a{
@@ -224,6 +229,17 @@ button :hover {
     height: 15px;
     width: 45px;
     background-color: green;
+}
+#fs{
+    display: flex;
+    justify-content: center;
+    vertical-align: top;
+
+}
+#in{
+    display: flex;
+    justify-content: flex-start;
+    padding: 4px;
 }
 
 
